@@ -1,5 +1,7 @@
 public class Hero extends Character{
     String weapon;
+    public Hero(String name,int hp){
+    }
     public void attack(Character target){
 
         System.out.println(this.name + "は" +this.weapon + "で" + target.name +"に１０ダメージ与えた！");

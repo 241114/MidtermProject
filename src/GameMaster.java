@@ -1,13 +1,10 @@
 public class GameMaster {
     public static void main(String[]args){
-        Hero h = new Hero();
-        h.name = "アベル";
+        Hero h = new Hero("アベル",10);
         h.weapon= "銅の剣";
-        h.hp =10;
 
-        Slime s = new Slime();
-        s.name = "スライムA";
-        s.hp = 50;
+
+        Slime s = new Slime("スライム",50);
 
         h.showStatus();
         s.showStatus();
